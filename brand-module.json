@@ -1,0 +1,14 @@
+{
+  "brand": "nothing",
+  "status": "unverified",
+  "devices": [
+    {
+      "codename": "Pong",
+      "model": "Phone (2)"
+    },
+    {
+      "codename": "Spacewar",
+      "model": "Phone (1)"
+    }
+  ]
+}

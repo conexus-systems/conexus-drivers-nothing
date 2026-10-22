@@ -1,0 +1,53 @@
+[
+  {
+    "codename": "Pong",
+    "name": "Phone (2)",
+    "soc": "Qualcomm SM8475 Snapdragon 8+ Gen1",
+    "lineage_device_tree": "android_device_nothing_Pong",
+    "lineage_kernel_repo": "android_kernel_nothing_sm8475",
+    "kernel_version": "5.10",
+    "is_ab": "sim",
+    "install_method": "fastboot_nexus",
+    "unlock_command": "fastboot flashing unlock",
+    "lineage_versions": [
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "source": "LineageOS/lineage_wiki@7a34d162b9210e523d504598ed026aee9f42f600:_data/devices/Pong.yml",
+    "criteria_hints": {
+      "c1_unlock": "a verificar: o cadastro indica o método de instalação 'fastboot_nexus', não garante desbloqueio sem espera ou recusa",
+      "c2_kernel_gpl": "repositório declarado pelo LineageOS: android_kernel_nothing_sm8475 (licença e fonte a conferir)",
+      "c3_device_tree": "repositório declarado pelo LineageOS: android_device_nothing_Pong",
+      "c4_kernel_ge_5_10": "sim",
+      "c5_recovery": "não testado"
+    }
+  },
+  {
+    "codename": "Spacewar",
+    "name": "Phone (1)",
+    "soc": "Qualcomm SM7325-AE Snapdragon 778G+ 5G",
+    "lineage_device_tree": "android_device_nothing_Spacewar",
+    "lineage_kernel_repo": "android_kernel_nothing_sm7325",
+    "kernel_version": "5.4",
+    "is_ab": "sim",
+    "install_method": "fastboot_nexus",
+    "unlock_command": "fastboot flashing unlock",
+    "lineage_versions": [
+      "20",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "source": "LineageOS/lineage_wiki@7a34d162b9210e523d504598ed026aee9f42f600:_data/devices/Spacewar.yml",
+    "criteria_hints": {
+      "c1_unlock": "a verificar: o cadastro indica o método de instalação 'fastboot_nexus', não garante desbloqueio sem espera ou recusa",
+      "c2_kernel_gpl": "repositório declarado pelo LineageOS: android_kernel_nothing_sm7325 (licença e fonte a conferir)",
+      "c3_device_tree": "repositório declarado pelo LineageOS: android_device_nothing_Spacewar",
+      "c4_kernel_ge_5_10": "não",
+      "c5_recovery": "não testado"
+    }
+  }
+]
